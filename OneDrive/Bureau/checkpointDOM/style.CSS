@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "popping", "sans serif";
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+html{
+    font-size: 62.5s;
+    overflow-x: hidden;
+}
+body{
+    background-color: antiquewhite;
+    position: relative;
+}
+header{
+    position:relative;
+    top: 0;
+    left: 0;
+    right: o;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+    box-shadow: 0 0 50px;
+    margin-top: 10px;
+}
+.logo{
+    color: lightcoral;
+    font-size: 50px;
+    font-weight: bold;
+}
+header.menu{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    float: left;
+    margin-left: 50px;
+
+}
+.menu img{
+    width: 300px;
+    height: 300px;
+}
+.menu span{
+    font-size: 50px;
+    grid-template-rows: minmax();
+    color: rgb(2, 40, 45);
+}
+#boutique p{
+    font-size: 20px;
+    
+}
+#boutique button{
+    color:  #fff;
+    background-color: palevioletred;
+    font-size: 30px;
+}

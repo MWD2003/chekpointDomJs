@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+    <!--header-->
+<header>
+    <div class="logo">
+        <p>Woury Shop</p>
+    </div>
+</header>
+<center>
+<div  class="menu">
+    <p><span>Bienvenue dans votre panier</span></p>
+    <button onclick="ajouterContenu()">Ajouter Contenu</button>
+  <button onclick="supprimerContenu()">Supprimer Contenu</button>
+
+  <div id="contenu">Contenu initial</div>
+
+    <section id="boutique" >
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.35.59_2596ddd2.jpg" alt="#">
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <p>Nappe de Table  7$ </p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.35.59_376a3796.jpg" alt="">
+        <p>Nappe de Table  2$ </p>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.35.59_3a44404a.jpg" alt="#">
+        <p>Nappe de Table  6$ </p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.35.59_a0dffd89.jpg" alt="#">
+        <p>Nappe de Table   9$ </p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.36.00_497a1b02.jpg" alt="#">
+        <p>Nappe de Table   10$</p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.36.00_497a1b02.jpg" alt="#">
+        <p>Nappe de Table   8$</p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.36.00_a33a1949.jpg" alt="#">
+        <p>Nappe de Table  9$</p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.36.00_dc63dbd0.jpg" alt="#">
+        <p>Nappe de Table   6$</p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.36.01_1e71a1b0.jpg" alt="#">
+        <p>Nappe de Table  8$</p>
+        <button>
+            <input type="button" value="acheter">
+        </button>
+        <img src="image wury/WhatsApp Image 2024-02-04 à 11.36.01_8774379f.jpg" alt="#">
+        <p>Nappe de Table  9$</p>
+       
+    </section>
+</div>
+</center>
+</body>
+<script>
+    // Fonction pour ajouter du contenu
+    function ajouterContenu() {
+      var element = document.getElementById('contenu');
+      element.innerHTML = 'Nouveau contenu ajouté';
+    }
+
+    // Fonction pour supprimer du contenu
+    function supprimerContenu() {
+      var element = document.getElementById('contenu');
+      element.innerHTML = 'Contenu initial';
+    }
+
+    // Ajouter des écouteurs d'événements aux boutons
+    document.getElementById('ajouterBtn').addEventListener('click', ajouterContenu);
+    document.getElementById('supprimerBtn').addEventListener('click', supprimerContenu);
+  </script>
+
+</html>
